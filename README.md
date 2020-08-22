@@ -5,7 +5,7 @@
 
 <p align="center">Introduction to Computer science and Javascript.</p>
 
-<p align="center"><img src="https://imgur.com/BD82PbR" width=700 alt="Screenshot of the course created with slate"></p>
+<p align="center"><img src="https://i.imgur.com/BD82PbR.png" width=700 alt="Screenshot of the course created with slate"></p>
 
 Necessary knowledge
 ------------
