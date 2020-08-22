@@ -1,5 +1,5 @@
 # Computer hardware
-> Homework
+> Task 1
 
 ```Homework
 Provide the photos of your computer and add the description of it's hardware 

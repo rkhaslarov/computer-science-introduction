@@ -18,6 +18,7 @@ includes:
   - javascript2
   - tools
   - cs
+  - next
 
 # search: true
 

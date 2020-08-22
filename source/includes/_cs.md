@@ -1,6 +1,6 @@
 
 # Data structures and Algorithms
-> Homework
+> Task 8
 
 ```Homework
 Let's challenge your skills. 

@@ -279,7 +279,7 @@
   color: #859900;
 }
     </style>
-    <link href="stylesheets/screen-5f514611.css" rel="stylesheet" media="screen" />
+    <link href="stylesheets/screen-525cf1ce.css" rel="stylesheet" media="screen" />
     <link href="stylesheets/print-bee9c2ad.css" rel="stylesheet" media="print" />
       <script src="javascripts/all_nosearch-ea811c3e.js"></script>
 
@@ -331,6 +331,11 @@
           </li>
           <li>
             <a href="#programming-basics-ii" class="toc-h1 toc-link" data-title="Programming basics II">Programming basics II</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#programming-basics-ii-notes" class="toc-h2 toc-link" data-title="Programming basics II notes">Programming basics II notes</a>
+                  </li>
+              </ul>
           </li>
           <li>
             <a href="#javascript-basics" class="toc-h1 toc-link" data-title="Javascript Basics">Javascript Basics</a>
@@ -344,6 +349,9 @@
           <li>
             <a href="#data-structures-and-algorithms" class="toc-h1 toc-link" data-title="Data structures and Algorithms">Data structures and Algorithms</a>
           </li>
+          <li>
+            <a href="#what-39-s-next" class="toc-h1 toc-link" data-title="What's next?">What's next?</a>
+          </li>
       </ul>
     </div>
     <div class="page-wrapper">
@@ -356,7 +364,7 @@ So, here it is. The course is designed especially for you. During the course, we
 <p>The main goal to achieve is to prepare the students without experience in IT for the next courses and to give them a minimal amount of information which is necessary for a successful start in the bussiness area.</p>
 <h1 id='computer-hardware'>Computer hardware</h1>
 <blockquote>
-<p>Homework</p>
+<p>Task 1</p>
 </blockquote>
 <div class="highlight"><pre class="highlight plaintext"><code>Provide the photos of your computer and add the description of it's hardware 
 as much as possible (CPU, RAM, Storage and etc). 
@@ -556,7 +564,7 @@ charged or discharged. These semiconductors are put into a chip that are on the 
 </ul>
 <h1 id='essentials-of-networking-and-the-internet'>Essentials of Networking and the Internet</h1>
 <blockquote>
-<p>Homework</p>
+<p>Task 2</p>
 </blockquote>
 <div class="highlight"><pre class="highlight plaintext"><code>Prepare a presentation or a schema about Web and the Internet. 
 
@@ -673,7 +681,7 @@ Data sent through a network is sent in <strong>packets</strong> (bits of binary 
 The router may need to be configured with NAT to facilitate communication between the company&#39;s network and the outside world.</p>
 <h1 id='programming-basics'>Programming basics</h1>
 <blockquote>
-<p>Homework</p>
+<p>Task 3</p>
 </blockquote>
 <div class="highlight"><pre class="highlight plaintext"><code>Hello, my dear friend. If you're here you did an awesome job! 
 You've spent plenty of time learning the basics of computers and programming, 
@@ -861,7 +869,7 @@ abc == abc
 <p>Conditionals allow us to perform certain actions depending on a condition. We use booleans to determine if data meets certain requirements, and then define what the program should do if that requirement is or is not met. In other words, we want to tell the computer, “if this thing is true, do this other thing”.</p>
 <h1 id='programming-basics-ii'>Programming basics II</h1>
 <blockquote>
-<p>Homework</p>
+<p>Task 4</p>
 </blockquote>
 <div class="highlight"><pre class="highlight plaintext"><code>And here you are. Let's start the next challenge. 
 
@@ -895,9 +903,56 @@ Good luck!
 <li><a href="https://press.rebus.community/programmingfundamentals/part/loops/" target="_blank">Loops (Read)</a></li>
 <li><a href="https://youtu.be/l26oaHV7D40?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo" target="_blank">Programming Basics: Statements &amp; Functions (Watch)</a></li>
 </ul>
+<h2 id='programming-basics-ii-notes'>Programming basics II notes</h2>
+<p><strong>Arrays</strong></p>
+
+<p>A list is a sequence of several variables, grouped together under a single name. Instead of writing a program with many variables x0, x1, x2, … you can define a single variable x and access its members x[0], x[1], x[2], etc. More importantly, you can put other expressions and variables inside the square brackets, like x[i] and x[i+1]. This allows us to deal with arbitrarily large data sets using just a single small piece of code.</p>
+
+<p>One way to create an array is by enclosing several values, separated with commas, between square brackets:</p>
+
+<p>myList = [&quot;the first value in the list&quot;, 1999, 4.5]</p>
+
+<p>This creates a list called myList of length 3. Each element of the list gets a number called its index: the initial element has index 0, the next element has index 1, and so forth. The individual variables comprising the list have the names
+«listName»[«indexNumber»]</p>
+
+<p><strong>Loops</strong></p>
+
+<p>Loops are among the most basic and powerful of programming concepts. A loop in a computer program is an instruction that repeats until a specified condition is reached. In a loop structure, the loop asks a question. If the answer requires action, it is executed. The same question is asked again and again until no further action is required. Each time the question is asked is called an iteration. </p>
+
+<p>A computer programmer who needs to use the same lines of code many times in a program can use a loop to save time.</p>
+
+<p>Just about every programming language includes the concept of a loop. High-level programs accommodate several types of loops. C, C++, and C# are all high-level computer programs and have the capacity to use several types of loops.</p>
+
+<p><strong>Types of Loops</strong></p>
+
+<ul>
+<li>A for loop is a loop that runs for a preset number of times.</li>
+<li>A while loop is a loop that is repeated as long as an expression is true. An expression is a statement that has a value.</li>
+<li>A do while loop or repeat until loop repeats until an expression becomes false.</li>
+<li>An infinite or endless loop is a loop that repeats indefinitely because it has no terminating condition, the exit condition is never met or the loop is instructed to start over from the beginning. Although it is possible for a programmer to intentionally use an infinite loop, they are often mistakes made by new programmers.</li>
+<li>A nested loop appears inside any other for, while or do while loop.</li>
+<li>A goto statement can create a loop by jumping backward to a label, although this is generally discouraged as a bad programming practice. For some complex code, it allows a jump to a common exit point that simplifies the code.</li>
+</ul>
+
+<p><strong>Loop Control Statements</strong></p>
+
+<p>A statement that alters the execution of a loop from its designated sequence is a loop control statement. C#, for example, provides two loop control statements.</p>
+
+<ul>
+<li>A break statement inside a loop terminates the loop immediately.</li>
+<li>A continue statement jumps to the next iteration of the loop, skipping any code in between.</li>
+</ul>
+
+<p><strong>Functions</strong></p>
+
+<p>In programming, a named section of a program that performs a specific task. In this sense, a function is a type of procedure or routine. Some programming languages make a distinction between a function, which returns a value, and a procedure, which performs some operation but does not return a value.</p>
+
+<p>Most programming languages come with a prewritten set of functions that are kept in a library. You can also write your own functions to perform specialized tasks.</p>
+
+<p>The term function is also used synonymously with operation and command. For example, you execute the delete function to erase a word.</p>
 <h1 id='javascript-basics'>Javascript Basics</h1>
 <blockquote>
-<p>Homework</p>
+<p>Task 5</p>
 </blockquote>
 <div class="highlight"><pre class="highlight plaintext"><code>Here you are. Your fabulous adventure is just started. 
 From now and ever you'll use the programming languages instead of painting the logic.
@@ -915,7 +970,8 @@ In this task, we assume that the input is always a number.
 
 Good luck!
 </code></pre></div>
-<p>The module opens the door to the next key topics of the programming such as variables, data types, loops and arrays. And of course, there will be intro to the functions. </p>
+<p>Dear friend, it&#39;s the time to write some code! In this section, you&#39;ll able to write a couple lines of pure Javascript! 
+That&#39;s what you wanted, didn&#39;t you? Let&#39;s get started then. </p>
 
 <p><strong>Self-study materials</strong></p>
 
@@ -941,7 +997,7 @@ Good luck!
 </ul>
 <h1 id='javascript-basics-ii'>Javascript Basics II</h1>
 <blockquote>
-<p>Homework</p>
+<p>Task 6</p>
 </blockquote>
 <div class="highlight"><pre class="highlight plaintext"><code>You've proved yourself as a JS warrior! Let's do one more task.
 
@@ -982,24 +1038,31 @@ Given an array of objects with property salary, return the average salary in th
 Example:
 Input: [{ salary: 10 }, { salary: 4 }] Output: 7
 </code></pre></div>
-<p>The module opens the door to the next key topics of the programming such as variables, data types, loops and arrays. And of course, there will be intro to the functions. </p>
+<p>After the first part where you&#39;ve realized your first algorithm, you should dig deeper and iterate through arrays using loops in Javascript!</p>
 
 <p><strong>Self-study materials</strong></p>
 
 <ul>
+<li><a href="https://www.youtube.com/watch?v=uclPh8sRyJ8&list=PLzLiprpVuH8e1YNSEXMtjOuB1uxqQLYED&index=9" target="_blank">Rolling Scopes School Poland. JS Basics Part 2 (Watch)</a></li>
 <li><a href="https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/get-started/ch2.md" target="_blank">Surveying JS (Read)</a></li>
-<li><a href="https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays" target="_blank">Intro to Javascript (Watch)</a></li>
-<li><a href="https://www.codecademy.com/courses/introduction-to-javascript/lessons/javascript-iterators" target="_blank">Variables (Watch)</a></li>
-<li><a href="https://www.codecademy.com/courses/introduction-to-javascript/lessons/objects" target="_blank">Conditions (Watch)</a></li>
-<li><a href="https://javascript.info/while-for" target="_blank">Intro to Javascript (Read)</a></li>
-<li><a href="https://javascript.info/switch" target="_blank">Manuals and specifications (Read)</a></li>
-<li><a href="https://javascript.info/function-basics" target="_blank">Developer console (Read)</a></li>
-<li><a href="https://javascript.info/object" target="_blank">Code structure (Read)</a></li>
-<li><a href="https://javascript.info/array" target="_blank">Code structure (Read)</a></li>
+<li><a href="https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays" target="_blank">Intro to Arrays (Watch)</a></li>
+<li><a href="https://www.codecademy.com/courses/introduction-to-javascript/lessons/javascript-iterators" target="_blank">Introduction to Iterators (Watch)</a></li>
+<li><a href="https://www.codecademy.com/courses/introduction-to-javascript/lessons/objects" target="_blank">Intro to Objects (Watch)</a></li>
+<li><a href="https://www.youtube.com/watch?v=hALzEGsXnYQ&list=PLzLiprpVuH8e1YNSEXMtjOuB1uxqQLYED&index=11" target="_blank">Rolling Scopes School Poland. Functions (Watch)</a></li>
+<li><a href="https://www.codecademy.com/courses/introduction-to-javascript/lessons/functions" target="_blank">Intro to Functions (Watch)</a></li>
+<li><a href="https://www.codecademy.com/courses/introduction-to-javascript/lessons/scope" target="_blank">Intro to Scope (Watch)</a></li>
+<li><a href="https://javascript.info/array" target="_blank">Arrays (Read)</a></li>
+<li><a href="https://javascript.info/object" target="_blank">Objects (Read)</a></li>
+<li><a href="https://javascript.info/switch" target="_blank">The &quot;switch&quot; statement (Read)</a></li>
+<li><a href="https://javascript.info/while-for" target="_blank">Loops: while and for (Read)</a></li>
+<li><a href="https://javascript.info/function-basics" target="_blank">Basics of functions (Read)</a></li>
+<li><a href="https://www.codecademy.com/courses/introduction-to-javascript/lessons/modules" target="_blank">Hello Modules (Watch)</a></li>
+<li><a href="https://javascript.info/coding-style" target="_blank">Coding Style (Read)</a></li>
+<li><a href="https://javascript.info/comments" target="_blank">Comments (Read)</a></li>
 </ul>
 <h1 id='code-editors-and-ides'>Code Editors and IDEs</h1>
 <blockquote>
-<p>Homework</p>
+<p>Task 7</p>
 </blockquote>
 <div class="highlight"><pre class="highlight plaintext"><code>You've learned a bunch of new terms such as IDEs, DevTools and so on. 
 
@@ -1008,6 +1071,8 @@ So, the home task is the following:
 1) Install the IDE and just play with it;
 2) Publish your code on the codepen or jsbin;
 3) Try to use console and network tab in the chrome dev tools.
+4) Sign up on the github and pass though the course https://lab.github.com/githubtraining/introduction-to-github. 
+5) Additionally, create repository and push your code from previous lessons to it. 
 </code></pre></div>
 <p>Hi, hero! You&#39;ve already passed through the basics of programming. Congrats! The next part is to add a few tools to your programmer&#39;s toolbelt.</p>
 
@@ -1015,6 +1080,7 @@ So, the home task is the following:
 
 <ul>
 <li><a href="https://youtu.be/khRmv3XSk0I" target="_blank">Rolling Scopes School Poland. IDE lecture (Watch)</a></li>
+<li><a href="https://javascript.info/code-editors" target="_blank">Code editors (Read)</a></li>
 <li><a href="https://code.visualstudio.com/docs/introvideos/basics" target="_blank">Getting started with Visual Studio Code (Read)</a></li>
 <li><a href="https://code.visualstudio.com/docs/getstarted/introvideos" target="_blank">Getting started with Visual Studio Code (Watch)</a></li>
 <li><a href="https://code.visualstudio.com/docs/nodejs/extensions" target="_blank">Visual Studio Code extensions (Read)</a></li>
@@ -1023,10 +1089,14 @@ So, the home task is the following:
 <li><a href="http://codepen.io/" target="_blank">Code sharing &amp; collaboration (Codepen)</a></li>
 <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools" target="_blank">Chrome Dev Tools I (Read)</a></li>
 <li><a href="https://developers.google.com/web/tools/chrome-devtools" target="_blank">Chrome Dev Tools II (Read)</a></li>
+<li><a href="https://javascript.info/debugging-chrome" target="_blank">Debugging in Chrome (Read)</a></li>
+<li><a href="https://www.codecademy.com/learn/learn-git target="_blank">Learn Git (Watch)</a></li>
+<li><a href="https://guides.github.com/introduction/git-handbook/" target="_blank">Git Handbook (Read)</a></li>
+<li><a href="https://learngitbranching.js.org/" target="_blank">Learning Git branching (Play)</a></li>
 </ul>
 <h1 id='data-structures-and-algorithms'>Data structures and Algorithms</h1>
 <blockquote>
-<p>Homework</p>
+<p>Task 8</p>
 </blockquote>
 <div class="highlight"><pre class="highlight plaintext"><code>Let's challenge your skills. 
 Please, sing up the leetcode website and try to solve the brain teasers.
@@ -1051,6 +1121,60 @@ Please, sing up the leetcode website and try to solve the brain teasers.
 <li><a href="https://www.youtube.com/watch?v=fykrlqbV9wM" target="_blank">CS50 Algorithms (Watch)</a></li>
 <li><a href="https://github.com/trekhleb/javascript-algorithms/" target="_blank">Code samples (Read)</a></li>
 <li><a href="https://github.com/KevinOfNeu/ebooks/blob/master/Grokking%20Algorithms.pdf" target="_blank">Grokking Algorithms (Read)</a></li>
+</ul>
+<h1 id='what-39-s-next'>What&#39;s next?</h1>
+<p>And you&#39;ve nailed it! However, I don&#39;t wanna make you upset but it&#39;s just a beginning of your developer path. 
+What should you learn next? Actually, it depends on what you&#39;ll choose. Please refer to the https://roadmap.sh website.
+There you can find the &quot;algorithms&quot; of self-improvement in different areas for the next few years. </p>
+
+<p>Despite that, do not forget to try yourself in computer science, you&#39;re able to join for free to the courses below on coursera.org. </p>
+
+<ul>
+<li><a href="https://www.coursera.org/learn/algorithms-part1" target="_blank">https://www.coursera.org/learn/algorithms-part1</a></li>
+<li><a href="https://www.coursera.org/learn/algorithms-part2" target="_blank">https://www.coursera.org/learn/algorithms-part2</a></li>
+<li><a href="https://www.coursera.org/specializations/data-structures-algorithms" target="_blank">https://www.coursera.org/specializations/data-structures-algorithms</a></li>
+</ul>
+
+<p>In addition to that, there is an option to study and get the bachelor or master degree online!</p>
+
+<p>And let me give you several <strong>advices</strong>:</p>
+
+<ul>
+<li>always stick to one task at a time</li>
+<li>don’t be afraid to ask for help or to help people back</li>
+<li>it might be hard but don’t give up</li>
+<li>don’t compare yourself to others, people are different</li>
+<li>it’s okay if you don’t understand</li>
+<li>don’t over-practice though, think of your health as well</li>
+</ul>
+
+<p><strong>Useful sources</strong></p>
+
+<ul>
+<li><a href="http://freecodecamp.com" target="_blank">Free Code Camp (free)</a></li>
+<li><a href="http://codecademy.com" target="_blank">Codecademy (mostly free)</a> </li>
+<li><a href="http://pluralsight.com" target="_blank">Pluralsight (paid subscription)</a></li>
+<li><a href="https://www.edx.org" target="_blank">edX (mostly free, pay for certificate)</a></li>
+<li><a href="https://www.udemy.com" target="_blank">Udemy (a couple of courses are free)</a></li>
+<li><a href="https://www.udacity.com" target="_blank">Udacity (mostly free, pay for certificate)</a></li>
+<li><a href="https://www.khanacademy.org" target="_blank">Khan Academy (free)</a> </li>
+<li><a href="https://www.eduonix.com" target="_blank">Eduonix (a couple of courses are free)</a> </li>
+<li><a href="https://www.sololearn.com" target="_blank">SoloLearn (free)</a></li>
+<li><a href="https://www.codeschool.com" target="_blank">Code School (paid subscription)</a></li>
+<li><a href="http://codecollege.ca" target="_blank">Code College (pay per course or paid subscription)</a> </li>
+<li><a href="https://dash.generalassemb.ly" target="_blank">Dash General Assembly (free)</a></li>
+<li><a href="https://skillcrush.com" target="_blank">Skill Crush (mostly free)</a></li>
+<li><a href="https://css-tricks.com" target="_blank">CSS Tricks  (free)</a></li>
+<li><a href="https://www.quora.com" target="_blank">Quora m (free)</a></li>
+<li><a href="http://stackoverflow.com" target="_blank">Stack Overflow (free)</a></li>
+<li><a href="https://lambdaschool.com" target="_blank">Lambda School (a couple of courses are free)</a></li>
+<li><a href="https://launchschool.com" target="_blank">Launch School (paid subscription)</a></li>
+<li><a href="https://www.hackerrank.com" target="_blank">Hacker Rank (free)</a></li>
+<li><a href="https://coderbyte.com" target="_blank">Coderbyte (free)</a></li>
+<li><a href="https://egghead.io" target="_blank">Egghead.io (a couple of courses are free)</a></li>
+<li><a href="https://www.coursera.org" target="_blank">Coursera (a couple of courses are free)</a> </li>
+<li><a href="https://www.thefirehoseproject.com" target="_blank">Firehose Project (paid subscription)</a></li>
+<li><a href="https://hackdesign.org" target="_blank">Hack design (free)</a></li>
 </ul>
 
       </div>

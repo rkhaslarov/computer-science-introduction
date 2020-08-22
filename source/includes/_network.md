@@ -1,5 +1,5 @@
 # Essentials of Networking and the Internet
-> Homework
+> Task 2
 
 ```Homework
 Prepare a presentation or a schema about Web and the Internet. 

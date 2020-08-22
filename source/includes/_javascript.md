@@ -1,6 +1,6 @@
 
 # Javascript Basics
-> Homework
+> Task 5
 
 ```Homework
 Here you are. Your fabulous adventure is just started. 
@@ -20,7 +20,8 @@ In this task, we assume that the input is always a number.
 Good luck!
 ```
 
-The module opens the door to the next key topics of the programming such as variables, data types, loops and arrays. And of course, there will be intro to the functions. 
+Dear friend, it's the time to write some code! In this section, you'll able to write a couple lines of pure Javascript! 
+That's what you wanted, didn't you? Let's get started then. 
 
 **Self-study materials**
 

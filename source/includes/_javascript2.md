@@ -1,6 +1,6 @@
 
 # Javascript Basics II
-> Homework
+> Task 6
 
 ```Homework
 You've proved yourself as a JS warrior! Let's do one more task.
@@ -43,16 +43,23 @@ Example:
 Input: [{ salary: 10 }, { salary: 4 }] Output: 7
 ```
 
-The module opens the door to the next key topics of the programming such as variables, data types, loops and arrays. And of course, there will be intro to the functions. 
+After the first part where you've realized your first algorithm, you should dig deeper and iterate through arrays using loops in Javascript!
 
 **Self-study materials**
 
+* <a href="https://www.youtube.com/watch?v=uclPh8sRyJ8&list=PLzLiprpVuH8e1YNSEXMtjOuB1uxqQLYED&index=9" target="_blank">Rolling Scopes School Poland. JS Basics Part 2 (Watch)</a>
 * <a href="https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/get-started/ch2.md" target="_blank">Surveying JS (Read)</a>
-* <a href="https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays" target="_blank">Intro to Javascript (Watch)</a>
-* <a href="https://www.codecademy.com/courses/introduction-to-javascript/lessons/javascript-iterators" target="_blank">Variables (Watch)</a>
-* <a href="https://www.codecademy.com/courses/introduction-to-javascript/lessons/objects" target="_blank">Conditions (Watch)</a>
-* <a href="https://javascript.info/while-for" target="_blank">Intro to Javascript (Read)</a>
-* <a href="https://javascript.info/switch" target="_blank">Manuals and specifications (Read)</a>
-* <a href="https://javascript.info/function-basics" target="_blank">Developer console (Read)</a>
-* <a href="https://javascript.info/object" target="_blank">Code structure (Read)</a>
-* <a href="https://javascript.info/array" target="_blank">Code structure (Read)</a>
+* <a href="https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays" target="_blank">Intro to Arrays (Watch)</a>
+* <a href="https://www.codecademy.com/courses/introduction-to-javascript/lessons/javascript-iterators" target="_blank">Introduction to Iterators (Watch)</a>
+* <a href="https://www.codecademy.com/courses/introduction-to-javascript/lessons/objects" target="_blank">Intro to Objects (Watch)</a>
+* <a href="https://www.youtube.com/watch?v=hALzEGsXnYQ&list=PLzLiprpVuH8e1YNSEXMtjOuB1uxqQLYED&index=11" target="_blank">Rolling Scopes School Poland. Functions (Watch)</a>
+* <a href="https://www.codecademy.com/courses/introduction-to-javascript/lessons/functions" target="_blank">Intro to Functions (Watch)</a>
+* <a href="https://www.codecademy.com/courses/introduction-to-javascript/lessons/scope" target="_blank">Intro to Scope (Watch)</a>
+* <a href="https://javascript.info/array" target="_blank">Arrays (Read)</a>
+* <a href="https://javascript.info/object" target="_blank">Objects (Read)</a>
+* <a href="https://javascript.info/switch" target="_blank">The "switch" statement (Read)</a>
+* <a href="https://javascript.info/while-for" target="_blank">Loops: while and for (Read)</a>
+* <a href="https://javascript.info/function-basics" target="_blank">Basics of functions (Read)</a>
+* <a href="https://www.codecademy.com/courses/introduction-to-javascript/lessons/modules" target="_blank">Hello Modules (Watch)</a>
+* <a href="https://javascript.info/coding-style" target="_blank">Coding Style (Read)</a>
+* <a href="https://javascript.info/comments" target="_blank">Comments (Read)</a>

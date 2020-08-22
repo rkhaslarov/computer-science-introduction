@@ -1,6 +1,6 @@
 
 # Programming basics
-> Homework
+> Task 3
 
 ```Homework
 Hello, my dear friend. If you're here you did an awesome job! 
