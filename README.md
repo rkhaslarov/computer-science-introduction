@@ -3,9 +3,11 @@
   <br>
 </p>
 
-<p align="center">Introduction to Computer science and Javascript.</p>
+<p align="center">Introduction to Computer Science and Javascript.</p>
 
 <p align="center"><img src="https://i.imgur.com/BD82PbR.png" width=700 alt="Screenshot of the course created with slate"></p>
+
+<p align="center"><em>Check it out at <a href="https://rkhaslarov.github.io/computer-science-introduction">https://rkhaslarov.github.io/computer-science-introduction</a>.</em></p>
 
 Necessary knowledge
 ------------
